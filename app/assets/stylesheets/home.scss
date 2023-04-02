@@ -1,0 +1,22 @@
+#sommaire{
+display: flex;
+list-style: none;
+padding-left: 40%;
+}
+
+#nom{
+  display: flex;
+  list-style: none;
+  align-items: center;
+  }
+
+#navbar{
+  display: flex;
+  border-bottom: 1px solid;
+  position: sticky;
+}
+
+.element_banner{
+  display: flex;
+  margin-left: 40px;
+}
