@@ -1,5 +1,59 @@
 #img_gh{
   position: absolute;
-    left: 7%;
-    top: 30%;
+  left: 7%;
+  top: 30%;
+}
+
+#image_moi{
+  width : 10%;
+  position: absolute;
+  left: 77%;
+  border-radius: 80px;
+  top : 7%
+}
+
+#logo_js{
+  position: absolute;
+  width: 2%;
+  left: 5%;
+  top: 19%;
+}
+
+#logo_rails{
+  position: absolute;
+  width: 2%;
+  left: 8%;
+  top: 19%;
+}
+
+#logo_heroku{
+  position: absolute;
+  width: 2%;
+  left: 10%;
+  top: 19%;
+}
+
+#logo_html{
+  position: absolute;
+  width: 2%;
+  left: 12%;
+  top: 19%;
+}
+
+#logo_css{
+  position: absolute;
+  width: 2%;
+  left: 14%;
+  top: 19%;
+}
+
+#logo_gmail{
+  position: relative;
+  width: 5%;
+  flex-shrink: 0;
+}
+
+#logo_linkedin{
+  position: relative;
+  width: 5%;
 }

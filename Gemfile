@@ -7,7 +7,7 @@ ruby "3.1.2"
 gem "sassc-rails"
 gem "font-awesome-sass", "~> 6.4.0"
 gem 'bootstrap', '~> 5.1.3'
-
+gem 'mini_magick'
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 7.0.4", ">= 7.0.4.3"
 

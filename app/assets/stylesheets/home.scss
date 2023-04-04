@@ -1,7 +1,7 @@
 #sommaire{
 display: flex;
 list-style: none;
-padding-left: 40%;
+padding-left: 60%;
 }
 
 #nom{
@@ -16,7 +16,50 @@ padding-left: 40%;
   position: sticky;
 }
 
-.element_banner{
+.element_navbar{
   display: flex;
   margin-left: 40px;
+}
+
+#titre_pres{
+  padding-top: 2%;
+}
+
+#texte_pres{
+  padding-top: 2%;
+}
+
+#titre_projet{
+padding-top: 3%;
+}
+
+#paws{
+  padding-top: 5%;
+  display: flex;
+  justify-content: center;
+}
+
+#airspas{
+  padding-top: 5%;
+  display: flex;
+  justify-content: center;
+}
+
+#titre_qualite{
+  padding-top: 3%;
+}
+
+#titre_cv{
+  padding-top: 3%;
+}
+
+#footer{
+  display: flex;
+  border-top: 1px solid;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+#contact{
+  margin : 2%;
 }
