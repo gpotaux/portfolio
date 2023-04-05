@@ -16,7 +16,7 @@
 
 <div id="présentation"></div>
 
-  <div id="titre_pres">
+  <div class="titres">
   Je me présente, je m'appelle Grégoire
   </div>
 
@@ -33,33 +33,23 @@
 
 <div id="projets">
 
-  <div id="titre_projet">
+  <div class="titres">
   Mes projets
   </div>
 
-  <%= image_tag "logo_js.png", id: "logo_js" %>
+  <div id="paws">
+  <%= image_tag "paws_login.png", class: "img_projet" %>
+  </div>
 
-  <%= image_tag "rails logo.png", id: "logo_rails" %>
-
-  <%= image_tag "logo_heroku.png", id: "logo_heroku" %>
-
-  <%= image_tag "html_logo.png", id: "logo_html" %>
-
-  <%= image_tag "css_logo.png", id: "logo_css" %>
-
-    <div id="paws">
-  <%= image_tag "paws_login.png", id: "paws_screen" %>
-    </div>
-
-    <div id="airspas">
-  <%= image_tag "airspas_home.png", id: "home_airspas" %>
-    </div>
+  <div id="airspas">
+  <%= image_tag "airspas_home.png", class: "img_projet" %>
+  </div>
 </div>
 
 
 <div id="qualite_apprenti">
 
-  <div id="titre_qualite">
+  <div class="titres">
   Mes qualités d'apprentis
   </div>
 
@@ -68,14 +58,8 @@
 
 <div id="cv">
 
-  <div id="titre_cv">
+  <div class="titres">
   Mon CV
   </div>
 
 </div>
-
-<div id="footer">
-  <%= image_tag "gmail.png", id: "logo_gmail" %>
-  <div id="contact">Mes contacts</div>
-  <%= image_tag "linkedin.png", id: "logo_linkedin" %>
-<div>
