@@ -1,17 +1,28 @@
 #img_gh{
   position: absolute;
-  left: 7%;
-  top: 30%;
+  left: 10%;
+  top: 44%;
 }
 
 #image_moi{
-  width : 10%;
+  display: block;
+  width : 13%;
   position: absolute;
   left: 77%;
   border-radius: 80px;
-  top : 7%
+  top : 15%
 }
 
 .img_projet{
   position: sticky;
+}
+
+#logo_lk{
+  position: relative;
+  margin: 2.5%;
+}
+
+#logo_env{
+  position: relative;
+  margin: 2.5%;
 }

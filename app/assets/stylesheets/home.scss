@@ -1,13 +1,15 @@
 #sommaire{
 display: flex;
 list-style: none;
-padding-left: 60%;
+padding-left: 55%;
 }
 
 #nom{
   display: flex;
   list-style: none;
   align-items: center;
+  font-size: 120%;
+  font-family: 'Glegoo', serif;
   }
 
 #navbar{
@@ -19,14 +21,21 @@ padding-left: 60%;
 .element_navbar{
   display: flex;
   margin-left: 40px;
+  font-size: 100%;
+  font-family: 'Glegoo', serif;
 }
 
 .titres{
   padding-top: 2%;
+  font-family: 'Fjord One', serif;
+  font-size: 150%;
+  color: royalblue;
 }
 
-#texte_pres{
+.texte{
   padding-top: 2%;
+  font-family: 'Glegoo', serif;
+  font-size: 120%;
 }
 
 #paws{
@@ -39,4 +48,17 @@ padding-left: 60%;
   padding-top: 5%;
   display: flex;
   justify-content: center;
+}
+
+#footer{
+  display: flex;
+  border-top: 1px solid;
+  justify-content: center;
+  position: sticky;
+}
+
+#contact{
+  margin : 2%;
+  font-family: 'Glegoo', serif;
+  font-size: 100%;
 }

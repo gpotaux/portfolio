@@ -1,65 +1,80 @@
-<div id="navbar">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fjord+One&family=Glegoo:wght@400;700&display=swap" rel="stylesheet">
+</head>
 
-  <div id="nom">
-  Grégoire POTAUX
+<body>
+  <div id="navbar">
+
+    <div id="nom">
+    Grégoire POTAUX
+    </div>
+
+    <i class="fa-brands fa-github fa-envelope fa-2xl" id="img_gh"></i>
+
+    <ul id="sommaire">
+      <li class="element_navbar"> Présentation</li>
+      <li class="element_navbar"> Mes projets</li>
+      <li class="element_navbar"> Mes qualités d'apprentis</li>
+      <li class="element_navbar"> Mon CV</li>
+    </ul>
   </div>
 
-  <i class="fa-brands fa-github" id="img_gh"></i>
+  <div id="présentation"></div>
 
-  <ul id="sommaire">
-    <li class="element_navbar"> Présentation</li>
-    <li class="element_navbar"> Mes projets</li>
-    <li class="element_navbar"> Mes qualités d'apprentis</li>
-    <li class="element_navbar"> Mon CV</li>
-  </ul>
-</div>
+    <div class="titres">
+    Je me présente, je m'appelle Grégoire
+    </div>
 
-<div id="présentation"></div>
+    <div class="texte">
+    Developpeur full stack junior en recherche d’une alternance,
+    je suis récemment certifié par le Wagon Lille. <br>
+    Je cherche une entreprise avec qui établir une relation de confiance afin
+    d’y réaliser mon alternance et si possible bien plus.
+    </div>
 
-  <div class="titres">
-  Je me présente, je m'appelle Grégoire
+    <%= image_tag "moi.JPG", id: "image_moi" %>
+
   </div>
 
-  <div id="texte_pres">
-  Developpeur full stack junior en recherche d’une alternance,
-  je suis récemment certifié par le Wagon Lille. <br>
-  Je cherche une entreprise avec qui établir une relation de confiance afin
-  d’y réaliser mon alternance et si possible bien plus.
+  <div id="projets">
+
+    <div class="titres">
+    Mes projets
+    </div>
+
+    <div id="paws">
+    <%= image_tag "paws_login.png", class: "img_projet" %>
+    </div>
+
+    <div id="airspas">
+    <%= image_tag "airspas_home.png", class: "img_projet" %>
+    </div>
   </div>
 
-  <%= image_tag "moi.JPG", id: "image_moi" %>
 
-</div>
+  <div id="qualite_apprenti">
 
-<div id="projets">
+    <div class="titres">
+    Mes qualités d'apprentis
+    </div>
 
-  <div class="titres">
-  Mes projets
   </div>
 
-  <div id="paws">
-  <%= image_tag "paws_login.png", class: "img_projet" %>
+
+  <div id="cv">
+
+    <div class="titres">
+    Mon CV
+    </div>
+
   </div>
 
-  <div id="airspas">
-  <%= image_tag "airspas_home.png", class: "img_projet" %>
-  </div>
-</div>
-
-
-<div id="qualite_apprenti">
-
-  <div class="titres">
-  Mes qualités d'apprentis
+  <div id="footer">
+  <i class="fa-solid fa-envelope fa-2xl" style="color: #4169e1;" id="logo_env"></i>
+  <div id="contact">Mes contacts</div>
+  <i class="fa-brands fa-linkedin fa-2xl" style="color: #4169e1;" id="logo_lk"></i>
   </div>
 
-</div>
-
-
-<div id="cv">
-
-  <div class="titres">
-  Mon CV
-  </div>
-
-</div>
+</body>
